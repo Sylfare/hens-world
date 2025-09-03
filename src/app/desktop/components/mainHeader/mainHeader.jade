@@ -12,7 +12,7 @@
         span.side-bt__etiquette(class='{{headCtrl.currentUser.village}}') Règlement
   .logo-wrapper
     a(href='/')
-      img.logo(src='/medias/logo.png')
+      img.logo(ng-src="{{headCtrl.getLogo()}}")
   .notif-container
     .notif-bt(ng-click='headCtrl.toggleNotif()', ng-class="{'active':headCtrl.notifList.length > 0, 'focus': headCtrl.showNotifList}")
       .number-notif.fond-village(ng-class="{'active': headCtrl.notifList.length > 0}") {{headCtrl.notifList.length}}

@@ -171,6 +171,11 @@ angular.module('app').component('mainHeader', {
             this.setCurrentPage = (page) => {
                 this.currentPage = page;
             };
+            this.getLogo = () => {
+                const endOfBeta = moment("2025-09-06");
+                const date = moment();
+                return date.isAfter(endOfBeta) ? "/medias/logo_nobeta.png" : "/medias/logo.png";
+            };
 
             this.$onInit = () => {
                 this.headerElement = document.getElementById("header");

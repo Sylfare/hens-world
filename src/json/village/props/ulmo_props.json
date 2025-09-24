@@ -2348,6 +2348,38 @@
       ]
     },
     {
+      "pseudo": "Varun",
+      "slug": "varun",
+      "owner": "val",
+      "status": "contributeur",
+      "house": {
+        "x": 3611,
+        "y": 1123,
+        "width": 20,
+        "height": 40
+      },
+      "image": {
+        "w": 510,
+        "h": 996,
+        "c": 250
+      },
+      "avail": [
+        {
+          "posSlug": "fake",
+          "fromT": 5,
+          "to": 5,
+          "x": 30,
+          "y": 310,
+          "width": 73,
+          "height": 56,
+          "center": {
+            "x": 15,
+            "y": 40
+          }
+        }
+      ]
+    },
+    {
       "pseudo": "Gab",
       "slug": "gab",
       "owner": "azur",
